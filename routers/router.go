@@ -8,4 +8,6 @@ import (
 func init() {
 	beego.Include(&controllers.UserControler{})
 	beego.Include(&controllers.VideoController{})
+	beego.Include(&controllers.BaseController{})
+	beego.Include(&controllers.CommentController{})
 }
